@@ -1,5 +1,9 @@
 // Your code goes here
+function updateText() {
+    document.getElementById( "text" ).innerHTML = "This is really cool!";
+}
+
 document.addEventListener("DOMContentLoaded", function() {
-    document.querySelector( 'p' ).textContent = "This is really cool!"
+    updateText();
   });
    
